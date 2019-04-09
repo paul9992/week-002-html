@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+
+body {
+    color: rgb(0, 0, 0);
+    background-image: url("https://www.richardsonsholidayparks.co.uk/wp-content/uploads/2018/04/ThigsToDoHeaderTitle.png");
+    background-repeat: no-repeat;
+    background-color: rgb(238, 238, 169);
+    font-family: 'Roboto Slab', Courier, monospace;
+}
+
+#heading {
+    font-family: 'Roboto', Courier, monospace;
+    text-align: center;
+    font-size: 400%; 
+}
+
+#task-entry-area {
+    width: 300px;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-size: 200%; 
+}
+
+#task-table-area {
+    width: 300px;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-size: 200%; 
+}
+
+.task-row {
+    color: rgb(0, 89, 255);
+    text-align: left;
+    border: 4px solid green;
+    margin: auto auto auto auto;
+}
+
+/* can't work out how to centre the buttons in the table rows */
+#task-element {
+    margin: 10px auto 10px auto;
+}
+
+/* not used 
+#middle-row {
+    color: red;
+    text-decoration: line-through;
+}
+*/

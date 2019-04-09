@@ -1,48 +1,81 @@
 <html>
-    <head>
-        <title>To Do title</title>
-    </head>
-    <body>
-            <h1>My ToDo application</h1>
-            
-           <!---- <form action="/action_page.php"> */ commented out action page on this just to test that a 'actionless' input will be displayed-->
-            <form action=""> 
-                <input type="text" name="" value="">
-                <input type="submit" value="Add">
-            </form>
 
-            <p>Things to do: 2</p>
+<head>
+    <title>To Do title</title>
 
-            <table>
-                <tr>
-                      <td>A first task
-                      </td>
-                      <td>
-                            <form action="/action_page.php">
-                                <input type="submit" value="Done">
-                                </form>
-                      </td>
-                      <td>
-                            <form action="/action_page.php">
-                                <input type="submit" value="Delete">
-                                </form>
-                      </td>
-                </tr>
-                <tr>
-                      <td>A second task
-                      </td>
-                      <td>
-                            <form action="/action_page.php">
-                                <input type="submit" value="Done">
-                                </form>
-                      </td>
-                      <td>
-                            <form action="/action_page.php">
-                                <input type="submit" value="Delete">
-                                </form>
-                      </td>
-                </tr>
-            </table>
-                  
-    </body>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <h1 id="heading">My ToDo application</h1>
+
+    <!--
+    <span class="my-span">
+        Some text blah
+    </span>
+-->
+
+    <div id="task-entry-area">
+        <form action="/action_page.php">
+            <input type="text" name="" value="">
+            <input type="submit" value="Add">
+        </form>
+    </div>
+
+    <div id="task-table-area">
+
+        <p>Things to do: 3</p>
+
+        <table>
+            <tr class="task-row">
+                <td id="task-element">A first task
+                </td>
+                <td id="task-element">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Done">
+                    </form>
+                </td>
+                <td id="task-element">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Delete">
+                    </form>
+                </td>
+            </tr>
+
+            <tr class="task-row">
+                <td id="task-element">A second task
+                </td>
+                <td id="task-element">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Done">
+                    </form>
+                </td>
+                <td id="task-element">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Delete">
+                    </form>
+                </td>
+            </tr>
+
+            <tr class="task-row">
+                <td id="task-element">A third task
+                </td>
+                <td id="task-element">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Done">
+                    </form>
+                </td>
+                <td id="task-element">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Delete">
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+
 </html>
