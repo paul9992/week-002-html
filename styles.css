@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Roboto Slab');
 
+
+
+h1 {
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        /* display: none; */
+        color: yellow;
+    }
+}
+
 body {
     color: rgb(0, 0, 0);
     background-image: url("https://www.richardsonsholidayparks.co.uk/wp-content/uploads/2018/04/ThigsToDoHeaderTitle.png");
