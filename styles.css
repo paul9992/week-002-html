@@ -29,14 +29,14 @@ body {
 }
 
 #task-entry-area {
-    width: 300px;
+    /* width: 300px; */
     margin: auto auto auto auto;
     text-align: center;
     font-size: 200%; 
 }
 
 #task-table-area {
-    width: 300px;
+    /* width: 300px; */
     margin: auto auto auto auto;
     text-align: center;
     font-size: 200%; 

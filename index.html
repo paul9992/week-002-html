@@ -3,6 +3,11 @@
 <head>
     <title>To Do title</title>
 
+    <!-- include the Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- include own CSS-->
     <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
@@ -10,11 +15,11 @@
 <body>
     <h1 id="heading">My ToDo application</h1>
 
-    <!--
+    <!-- test section
     <span class="my-span">
         Some text blah
     </span>
--->
+    -->
 
     <div id="task-entry-area">
         <form action="/action_page.php">
@@ -27,6 +32,60 @@
 
         <p>Things to do: 3</p>
 
+        <!-- now using Bootstrap divs instead of table -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-6">
+                    A first task
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Done">
+                    </form>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Delete">
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-md-6">
+                    A second task
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Done">
+                    </form>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Delete">
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-md-6">
+                    A third task
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Done">
+                    </form>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Delete">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--replaced table section
         <table>
             <tr class="task-row">
                 <td id="task-element">A first task
@@ -73,6 +132,7 @@
                 </td>
             </tr>
         </table>
+    -->
 
     </div>
 
